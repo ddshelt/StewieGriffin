@@ -1,0 +1,23 @@
+{
+  "name": "stewiegriffin",
+  "version": "1.0.0",
+  "description": "I first created my repo.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ddshelt/StewieGriffin.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ddshelt/StewieGriffin/issues"
+  },
+  "homepage": "https://github.com/ddshelt/StewieGriffin#readme",
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "sass": "^1.14.0"
+  }
+}
