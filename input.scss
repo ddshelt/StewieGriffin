@@ -1,7 +1,57 @@
-$font-stack:    Helvetica, sans-serif;
-$primary-color: #333;
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+.headings, .card-title {
+  font-family: 'Indie Flower', cursive;
+}
+
+.card {
+        margin: 0 auto;
+        float: none;
+        margin-bottom: 10px;
+}
+
+.card2 {
+  margin: 0 auto;
+  float: left;
+  margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+@import "./node_modules/bootstrap/scss/bootstrap";
+
 
 body {
-  font: 100% $font-stack;
-  color: $primary-color;
+    background-color: #08182b;
+}
+
+h1,h2,p {
+  color: #dddfe6;
+}
+
+body > p {
+  border: 7px solid #45d9fd;
+  float: center;
+}
+
+img {
+  display: block;
+  max-width: 30%;
+  height: -10%;
+  float: left;
+}
+
+.card-title {
+  color: #ee2560;
+}
+
+body > h1 {
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
 }
